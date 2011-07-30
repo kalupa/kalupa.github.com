@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title></title>
+  <link href="http://karrupa.com/atom.xml" rel="self"/>
+  <link href="http://karrupa.com/"/>
+  <updated>2011-07-30T16:59:56+09:00</updated>
+  <id>http://karrupa.com/</id>
+  <author>
+    <name>Paul Kalupnieks</name>
+    
+  </author>
+
+  
+  <entry>
+    <title>Vi(m) vs. (Emacs)</title>
+    <link href="http://karrupa.com/blog/2010/12/03/vi-vs-emacs/"/>
+    <updated>2010-12-03T10:52:00+09:00</updated>
+    <id>http://karrupa.com/blog/2010/12/03/vi-vs-emacs</id>
+    <content type="html">&lt;p&gt;At the risk of re-firing the never ending war between users of these two text editors, I thought I'd try a bit of an experiment: Learn both!&lt;/p&gt;
+
+&lt;p&gt;With the slow code-rot of Textmate happening, I'd decided that it might be time to pick up a new editor, one that's both actively maintained but also extremely well adapted to programming in languages other than Ruby. I mean, lets face it, Textmate was intended for Ruby development on the Mac and it does that admirably.&lt;/p&gt;
+
+&lt;p&gt;Enter the classic open-source text editors!&lt;/p&gt;
+
+&lt;p&gt;I decided to start from a place with at least a passing familiarity from my unix knowledge.&lt;/p&gt;
+
+&lt;p&gt;Over the past couple of months I've been using Vim, MacVim more specifically. It's been an interesting trip so far, one that I wish I'd have taken a bit sooner. I've been comfortable with the most basic commands for many years since it's a default editor on basically any standard unix. Editing Apache config files being the primary use at that time.&lt;/p&gt;
+
+&lt;p&gt;Once I started digging in past the / search and saving files I quickly realized just how powerful an editor vim really is. I really admire the focus on keyboard work that is often missing from more full-featured IDEs. This is text, just text, so lets just focus on that. One thing that I didn't know I needed in an editor was bookmarks. Being able to quickly jump around a file, back and forth to a regular place, was something that I think I was really missing from what I've used for years.&lt;/p&gt;
+
+&lt;p&gt;I'm not going to do an exhaustive analysis of what makes vim so great right now, but just to open the discussion a bit.&lt;/p&gt;
+
+&lt;p&gt;Next up is Emacs. I haven't really ever used this editor but I'm going to change that. It, too, seems to be powerful in the same ways that vim is, but with a different flavour to it. I guess I'll have to see myself why there's such a long-running debate about which is better.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>cached-commons - javascript API</title>
+    <link href="http://karrupa.com/blog/2010/09/02/cached-commons-javascript-api/"/>
+    <updated>2010-09-02T00:21:47+09:00</updated>
+    <id>http://karrupa.com/blog/2010/09/02/cached-commons-javascript-api</id>
+    <content type="html">&lt;blockquote&gt;&lt;p&gt;You probably already use Google’s &lt;a href=&quot;http://code.google.com/apis/libraries/&quot;&gt;AJAX Libraries&lt;/a&gt; as a CDN for your JavaScripts. But what do you do when Google is slow to add &lt;a href=&quot;http://www.modernizr.com/&quot;&gt;your favorite JavaScript library&lt;/a&gt;? &lt;a href=&quot;http://github.com/viatropos&quot;&gt;Lance Pollard&lt;/a&gt; has created &lt;a href=&quot;http://cachedcommons.org/&quot;&gt;Cached Commons&lt;/a&gt; , an API for common Javascripts and stylesheets, cached and optimized on GitHub’s CDN.&lt;/p&gt;
+
+&lt;p&gt;Cached Commons lists dozens of scripts under categories like visualization, Ajax, syntax highlighting, HTML5, Flash, and testing, complete with links to project sources, demos, even documenation. Don’t see a script you want? Just fork the project and your script for everyone to share.&lt;/p&gt;
+
+&lt;p&gt;It looks like CSS libraries are on the TODO list, just like I had asked of Google in &lt;a href=&quot;http://wynn.fm/032&quot;&gt;Episode 0.3.2&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;[ &lt;a href=&quot;http://github.com/viatropos/cached-commons&quot;&gt;Source on GitHub&lt;/a&gt; ] [ &lt;a href=&quot;http://cachedcommons.org/&quot;&gt;Homepage&lt;/a&gt; ]&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;via &lt;a href=&quot;http://thechangelog.com/post/1047967476&quot;&gt;thechangelog.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Definitely a great idea. In this age of widespread CDN use, it makes a great deal of sense to use cached sources for such commonly used things. The Google CDN for jQuery is definitely a planned bare minimum in my world. Looks like this will accent that really nicely.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Death to Design Awards</title>
+    <link href="http://karrupa.com/blog/2010/09/01/death-to-design-awards/"/>
+    <updated>2010-09-01T22:31:23+09:00</updated>
+    <id>http://karrupa.com/blog/2010/09/01/death-to-design-awards</id>
+    <content type="html">&lt;blockquote&gt;&lt;p&gt;&quot;Ego is the single greatest obstacle to innovation, collaboration and progress.&quot;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://posterous.com/getfile/files.posterous.com/karrupa/ulyxadHvBCslEpzeGiCvzGCzcfvluHHIwEwqEizyupeFIjpwHdCEwlApmAll/media_httpchangeobser_eaIlC.jpg.scaled1000.jpg&quot;&gt;&lt;img src=&quot;http://posterous.com/getfile/files.posterous.com/karrupa/ulyxadHvBCslEpzeGiCvzGCzcfvluHHIwEwqEizyupeFIjpwHdCEwlApmAll/media_httpchangeobser_eaIlC.jpg.scaled500.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;via &lt;a href=&quot;http://changeobserver.designobserver.com/entry.html?entry=15288&quot;&gt;changeobserver.designobserver.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I can't disagree on involving 'non-designers' in the process of design awards. In a world where everyone can be considered a designer, ones that are that as a profession have just as much right to an opinion on good design as anyone else.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>The strange case of solar flares and radioactive elements</title>
+    <link href="http://karrupa.com/blog/2010/08/27/the-strange-case-of-solar-flares-and-radioactive-elements/"/>
+    <updated>2010-08-27T21:48:37+09:00</updated>
+    <id>http://karrupa.com/blog/2010/08/27/the-strange-case-of-solar-flares-and-radioactive-elements</id>
+    <content type="html">&lt;blockquote&gt;&lt;p&gt;“It doesn’t make sense according to conventional ideas,” Fischbach said. Jenkins whimsically added, “What we’re suggesting is that something that doesn’t really interact with anything is changing something that can’t be changed.”&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt; &lt;em&gt;via &lt;a href=&quot;http://www.symmetrymagazine.org/breaking/2010/08/23/the-strange-case-of-solar-flares-and-radioactive-elements/&quot;&gt;symmetrymagazine.org&lt;/a&gt; and (&lt;a href=&quot;http://twitter.com/davidcrow&quot;&gt;@davidcrow&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Post-apocalyptic Tokyo scenery</title>
+    <link href="http://karrupa.com/blog/2010/08/20/post-apocolyptic-tokyo/"/>
+    <updated>2010-08-20T11:09:31+09:00</updated>
+    <id>http://karrupa.com/blog/2010/08/20/post-apocolyptic-tokyo</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://posterous.com/getfile/files.posterous.com/karrupa/odmbeuGxxEjknrfqbysDsnkmEkkEzsBAiJokGqzfldcCJqrDydEnjxGDoiAC/media_httppinktentacl_Apgzf.jpg.scaled1000.jpg&quot;&gt;&lt;img src=&quot;http://posterous.com/getfile/files.posterous.com/karrupa/odmbeuGxxEjknrfqbysDsnkmEkkEzsBAiJokGqzfldcCJqrDydEnjxGDoiAC/media_httppinktentacl_Apgzf.jpg.scaled500.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;via &lt;a href=&quot;http://pinktentacle.com/2010/08/post-apocalyptic-tokyo-scenery/&quot;&gt;pinktentacle.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;ok, these are pretty badass.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Sequel Pro - User Admin</title>
+    <link href="http://karrupa.com/blog/2010/07/16/sequel-pro-user-admin/"/>
+    <updated>2010-07-16T23:50:45+09:00</updated>
+    <id>http://karrupa.com/blog/2010/07/16/sequel-pro-user-admin</id>
+    <content type="html">&lt;p&gt;I just realized that you can now manage MySQL users using &lt;a href=&quot;http://www.sequelpro.com/&quot;&gt;Sequel Pro&lt;/a&gt;. I am unsure how long this feature has been in there, but I just spotted the button now. Now I never have to look at phpmyadmin ever again. Great while it lasted, but can't stand the interface anymore.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Pure CSS Twitter Fail Whale</title>
+    <link href="http://karrupa.com/blog/2010/06/14/pure-css-twitter-fail-whale/"/>
+    <updated>2010-06-14T22:05:46+09:00</updated>
+    <id>http://karrupa.com/blog/2010/06/14/pure-css-twitter-fail-whale</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://posterous.com/getfile/files.posterous.com/karrupa/fcEdDxanzwizaeAtImEoaAnApHHbxyhAydwDrGvnwzFfbmtIclIDlCsczcrv/media_httpwwwsubcidec_zuCAx.png.scaled1000.png&quot;&gt;&lt;img src=&quot;http://posterous.com/getfile/files.posterous.com/karrupa/fcEdDxanzwizaeAtImEoaAnApHHbxyhAydwDrGvnwzFfbmtIclIDlCsczcrv/media_httpwwwsubcidec_zuCAx.png.scaled500.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;via &lt;a href=&quot;http://www.subcide.com/articles/pure-css-twitter-fail-whale/&quot;&gt;subcide.com&lt;/a&gt; and (&lt;a href=&quot;http://twitter.com/yongfook&quot;&gt;@yongfook&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;even has animation for webkit.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Refinery CMS - Geolocator Plugin</title>
+    <link href="http://karrupa.com/blog/2010/06/08/refinery-cms-geolocator-plugin/"/>
+    <updated>2010-06-08T06:54:00+09:00</updated>
+    <id>http://karrupa.com/blog/2010/06/08/refinery-cms-geolocator-plugin</id>
+    <content type="html">&lt;p&gt;Today I wrote my first &lt;a href=&quot;http://refinerycms.com/&quot;&gt;Refinery CMS&lt;/a&gt; plugin.&lt;/p&gt;
+
+&lt;p&gt;It's available here: &lt;a href=&quot;http://github.com/kalupa/refinery-geolocation&quot;&gt;refinery-geolocation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A very basic PHP to Ruby on Rails to RefineryCMS plugin based on the Google Maps API &lt;a href=&quot;http://code.google.com/apis/maps/articles/phpsqlajax.html&quot;&gt;example&lt;/a&gt;. I'm extremely please with how simple plugin creation is for this CMS system. I find plugins to be a bit daunting, generally, so I've steered away from creating my own. Often the case is there's already a fully functional (and well developed) plugin already in common use.&lt;/p&gt;
+
+&lt;p&gt;Refinery is a Ruby on Rails based Content Management System. It's open-source and quite &quot;young&quot; by web technology standards. However, it's a lot more flexible and very far from bloated compared to other systems I've used in the past. It takes the Rails Way as everything is by convention instead of configuration and any functionality you might want to change you can override, whether it's via a plugin or otherwise.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://posterous.com/getfile/files.posterous.com/temp-2010-06-07/mbfAbevoetvscAEqiekkiEGnxiCnqzBohFfdpBmfBIwFCgudAgzzdlfjFJJc/Pizza_Locator_-_Company_Name-1.jpg.scaled1000.jpg&quot;&gt;&lt;img src=&quot;http://posterous.com/getfile/files.posterous.com/temp-2010-06-07/mbfAbevoetvscAEqiekkiEGnxiCnqzBohFfdpBmfBIwFCgudAgzzdlfjFJJc/Pizza_Locator_-_Company_Name-1.jpg.scaled500.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here's what it basically looks like.&lt;/p&gt;
+
+&lt;p&gt;It was an interesting challenge in that I still haven't figured out a database-agnostic way to query the database so for now we're stuck with using mySQL to store the geo-points.&lt;/p&gt;
+
+&lt;p&gt;I also removed much of the google ajax as I'm far more comfortable with how jQuery handles things.&lt;/p&gt;
+
+&lt;p&gt;I am sure there's room for optimizations and improvements, but so far I'm happy with the results.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>The Process of Site Optimization by an Amateur</title>
+    <link href="http://karrupa.com/blog/2010/05/18/the-process-of-site-optimization-by-an-amateur/"/>
+    <updated>2010-05-18T02:12:18+09:00</updated>
+    <id>http://karrupa.com/blog/2010/05/18/the-process-of-site-optimization-by-an-amateur</id>
+    <content type="html">&lt;blockquote&gt;&lt;p&gt;Originally, I decided to create and maintain a &lt;a href=&quot;http://brokensign.org&quot;&gt;site&lt;/a&gt; to place my drawings on, with initial effort directed towards design over content. I just wanted something that looked clean, fun and had my artwork but I really didn’t think too much about visitor traffic and analysis.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;more at &lt;a href=&quot;http://ednapiranha.tumblr.com/post/607226219/the-process-of-site-optimization-by-an-amateur-part-i&quot;&gt;ednapiranha.tumblr.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;via (&lt;a href=&quot;http://twitter.com/ednapiranha&quot;&gt;@ednapiranha&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Display Current Branch in Your Bash Prompt</title>
+    <link href="http://karrupa.com/blog/2010/03/16/display-current-branch-in-your-bash-prompt/"/>
+    <updated>2010-03-16T04:24:00+09:00</updated>
+    <id>http://karrupa.com/blog/2010/03/16/display-current-branch-in-your-bash-prompt</id>
+    <content type="html">&lt;p&gt;So, you're working on a topic branch of changes, perhaps &quot;dev&quot;. You code, test,commit, code, test, commit, push. Standard stuff. Then you go and do a deploy.&lt;/p&gt;
+
+&lt;p&gt;WTF?! my changes aren't there? What is going on?&lt;/p&gt;
+
+&lt;p&gt;Oh, right, &quot;master&quot; gets deployed, not &quot;dev&quot;. You forgot to merge the changes into the master branch. You forgot you weren't coding in the master branch.&lt;/p&gt;
+
+&lt;p&gt;Here's a quick way to remind yourself where you are, right in your bash prompt.&lt;/p&gt;
+
+&lt;p&gt;Add this function to your .bash_profile:&lt;/p&gt;
+
+&lt;div&gt;&lt;script src='https://gist.github.com/1115311.js?file='&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;pre&gt;&lt;code&gt;  function parse_git_branch {
+    ref=$(git symbolic-ref HEAD 2&amp;gt; /dev/null) || return
+      echo &amp;quot;(&amp;quot;${ref#refs/heads/}&amp;quot;)&amp;quot;
+  }&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
+
+
+&lt;p&gt;and then just add it to your bash prompt like this (mind the named colors ...)&lt;/p&gt;
+
+&lt;div&gt;&lt;figure role=code&gt;&lt;figcaption&gt;&lt;span&gt;Bash Prompt &lt;/span&gt;&lt;/figcaption&gt;
+&lt;pre&gt;&lt;code&gt;export PS1=&quot;$GREEN\h$BLUE \W $YELLOW\$(parse_git_branch)$WHITE\$ &quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;http://img.skitch.com/20100315-88yp8dtu9hdd78wjda9fus9py3.jpg&quot; alt=&quot;Bash Prompt&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Have fun!&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Rails and Heroku</title>
+    <link href="http://karrupa.com/blog/2010/02/21/rails-and-heroku/"/>
+    <updated>2010-02-21T01:16:00+09:00</updated>
+    <id>http://karrupa.com/blog/2010/02/21/rails-and-heroku</id>
+    <content type="html">&lt;p&gt;I've been spending a great amount of time over the past few weeks investigating using &lt;a href=&quot;http://heroku.com/&quot;&gt;Heroku&lt;/a&gt; as a deployment platform for &lt;a href=&quot;http://rubyonrails.org/&quot;&gt;Ruby on Rails&lt;/a&gt; applications. In my day-to-day work I don't feel I have the time to properly manage the application servers that my clients need running as business expands.&lt;/p&gt;
+
+&lt;p&gt;I love using &lt;a href=&quot;http://slicehost.com&quot;&gt;Slicehost&lt;/a&gt; , but over the past year I've come to loath ssh'ing into the small memory slices that clients are willing to pay for just to find their applications have run out of memory. The smallest of slices is great when starting but even a modest amount of traffic causes memory problems even when running &lt;a href=&quot;http://www.rubyenterpriseedition.com/&quot;&gt;Ruby Enterprise Edition&lt;/a&gt; and &lt;a href=&quot;http://www.modrails.com/&quot;&gt;Passenger Phusion&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;Now this wouldn't be much of an issue if they were larger, more popular sites. Or if they were something more complex than basic CMS-type systems. If the situations were different, such as getting very popular or being more than managing content, it would be much easier to justify the increased cost associated with a larger slice.&lt;/p&gt;
+
+&lt;p&gt;It's time to check out Heroku.&lt;/p&gt;
+
+&lt;p&gt;Essentially an &lt;a href=&quot;http://aws.amazon.com/&quot;&gt;Amazon Web Services&lt;/a&gt; -based system for hosting any type of Ruby-requiring application, it solves a lot of the price vs. scalability issues I've been seeing more and more of lately with smaller sites I manage for my clients. The basic account is free, so getting started is a no-brainer. I'm going to guess with about 80% of the client work I deal with, the free solution will get them to the point where the site is known and starts getting traffic. As things grow, there's only slight cost increases for more performance. A very pleasing situation in my mind.&lt;/p&gt;
+
+&lt;p&gt;Setup and deployment of a Heroku app is extremely simple and just a matter of a couple commands on the command-line and a git push. Gem requirements are specified in a gem manifest which is parsed and gems added to your application slug during deployment.&lt;/p&gt;
+
+&lt;p&gt;One main drawback, though, is the lack of static asset storage. Heroku creates a read-only environment for your Rails (or Sinatra, or ...) application. This is an interesting take, although one I would have to agree with. Being a cloud-solution, the application server itself isn't the best place to keep assets anyway. It's not tuned for that type of performance at all and the node could go down on a scalable app and take all the new static content with it. This isn't a huge issue though, even for a small-type website that needs image or PDF uploads.&lt;/p&gt;
+
+&lt;p&gt;In that specific case, there are two solutions available immediately. Use binary columns in the database (which, on Heroku is Postgres) or use Amazon S3 as a file-store. Both have their benefits and I'm not going to go into detail about which to choose. Suffice to say, S3 transfers from a Heroku-hosted app and the S3 storage system are free since they're both AWS.With a smaller site, this is ideal since the costs of storage is extremely low on S3.&lt;/p&gt;
+
+&lt;p&gt;Many of the other nice add-ons that Heroku offers are quite useful when managing smaller sites, including free backups (to a local machine ... ), easy integration of monitoring systems such as &lt;a href=&quot;http://newrelic.com/&quot;&gt;New Relic&lt;/a&gt; and &lt;a href=&quot;http://getexceptional.com/&quot;&gt;Exceptional&lt;/a&gt; , as well as seamless setup of using SMTP via &lt;a href=&quot;http://sendgrid.com/&quot;&gt;Sendgrid&lt;/a&gt; . Many of the less-than-no-work add-ons that many developers would like to offer to their clients, but don't have clients able to afford them, now can. A bonus for everyone involved.&lt;/p&gt;
+
+&lt;p&gt;Looking for a performance-tuned system without the overhead of managing it has been a long-time goal of mine. Managed solutions such as &lt;a href=&quot;http://rackspace.com&quot;&gt;Rackspace&lt;/a&gt; have their place, but for a small-time business needing something only slightly more complex than a brochure site, they're not ideal at all. Heroku now allows me to offer a higher level of service for even small clients with restricted budgets.&lt;/p&gt;
+
+&lt;p&gt;While it's not a panacea, it certainly is great to have another tool to add to the toolbox.&lt;/p&gt;
+</content>
+  </entry>
+  
+</feed>

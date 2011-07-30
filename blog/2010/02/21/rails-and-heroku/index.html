@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Karrupa: Rails and Heroku</title>
+  <meta name="author" content="Paul Kalupnieks">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+  <link rel="canonical" href="http://karrupa.com/blog/2010/02/21/rails-and-heroku/"/>
+  <link href="/favicon.png" rel="shortcut icon" />
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="http://s3.amazonaws.com/ender-js/jeesh.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+  
+  <link href="/atom.xml" rel="alternate" title="Karrupa" type="application/atom+xml"/>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-8421622-5']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+</head>
+
+<body  >
+  <header><hgroup>
+  <h1><a href="/">Karrupa</a></h1>
+  
+    <h2>Mobile & Web Application Development Made Simple</h2>
+  
+</hgroup>
+</header>
+  <nav role=navigation><ul role=subscription data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+<form action="http://google.com/search" method="get">
+  <fieldset role="site-search">
+    <input type="hidden" name="q" value="site:karrupa.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+<ul role=main-navigation>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry">
+  
+  <header>
+    
+      <h1 class="entry-title">Rails and Heroku</h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2010-02-21 01:16:00 +0900" pubdate  updated >Feb 21<span>st</span>, 2010</time>
+
+
+</p>
+    
+  </header>
+
+
+<div class="entry-content"><p>I&#8217;ve been spending a great amount of time over the past few weeks investigating using <a href="http://heroku.com/">Heroku</a> as a deployment platform for <a href="http://rubyonrails.org/">Ruby on Rails</a> applications. In my day-to-day work I don&#8217;t feel I have the time to properly manage the application servers that my clients need running as business expands.</p>
+
+<p>I love using <a href="http://slicehost.com">Slicehost</a> , but over the past year I&#8217;ve come to loath ssh&#8217;ing into the small memory slices that clients are willing to pay for just to find their applications have run out of memory. The smallest of slices is great when starting but even a modest amount of traffic causes memory problems even when running <a href="http://www.rubyenterpriseedition.com/">Ruby Enterprise Edition</a> and <a href="http://www.modrails.com/">Passenger Phusion</a> .</p>
+
+<p>Now this wouldn&#8217;t be much of an issue if they were larger, more popular sites. Or if they were something more complex than basic CMS-type systems. If the situations were different, such as getting very popular or being more than managing content, it would be much easier to justify the increased cost associated with a larger slice.</p>
+
+<p>It&#8217;s time to check out Heroku.</p>
+
+<p>Essentially an <a href="http://aws.amazon.com/">Amazon Web Services</a> -based system for hosting any type of Ruby-requiring application, it solves a lot of the price vs. scalability issues I&#8217;ve been seeing more and more of lately with smaller sites I manage for my clients. The basic account is free, so getting started is a no-brainer. I&#8217;m going to guess with about 80% of the client work I deal with, the free solution will get them to the point where the site is known and starts getting traffic. As things grow, there&#8217;s only slight cost increases for more performance. A very pleasing situation in my mind.</p>
+
+<p>Setup and deployment of a Heroku app is extremely simple and just a matter of a couple commands on the command-line and a git push. Gem requirements are specified in a gem manifest which is parsed and gems added to your application slug during deployment.</p>
+
+<p>One main drawback, though, is the lack of static asset storage. Heroku creates a read-only environment for your Rails (or Sinatra, or &#8230;) application. This is an interesting take, although one I would have to agree with. Being a cloud-solution, the application server itself isn&#8217;t the best place to keep assets anyway. It&#8217;s not tuned for that type of performance at all and the node could go down on a scalable app and take all the new static content with it. This isn&#8217;t a huge issue though, even for a small-type website that needs image or PDF uploads.</p>
+
+<p>In that specific case, there are two solutions available immediately. Use binary columns in the database (which, on Heroku is Postgres) or use Amazon S3 as a file-store. Both have their benefits and I&#8217;m not going to go into detail about which to choose. Suffice to say, S3 transfers from a Heroku-hosted app and the S3 storage system are free since they&#8217;re both AWS.With a smaller site, this is ideal since the costs of storage is extremely low on S3.</p>
+
+<p>Many of the other nice add-ons that Heroku offers are quite useful when managing smaller sites, including free backups (to a local machine &#8230; ), easy integration of monitoring systems such as <a href="http://newrelic.com/">New Relic</a> and <a href="http://getexceptional.com/">Exceptional</a> , as well as seamless setup of using SMTP via <a href="http://sendgrid.com/">Sendgrid</a> . Many of the less-than-no-work add-ons that many developers would like to offer to their clients, but don&#8217;t have clients able to afford them, now can. A bonus for everyone involved.</p>
+
+<p>Looking for a performance-tuned system without the overhead of managing it has been a long-time goal of mine. Managed solutions such as <a href="http://rackspace.com">Rackspace</a> have their place, but for a small-time business needing something only slightly more complex than a brochure site, they&#8217;re not ideal at all. Heroku now allows me to offer a higher level of service for even small clients with restricted budgets.</p>
+
+<p>While it&#8217;s not a panacea, it certainly is great to have another tool to add to the toolbox.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Paul Kalupnieks</span></span>
+
+      
+
+
+
+
+<time datetime="2010-02-21 01:16:00 +0900" pubdate  updated >Feb 21<span>st</span>, 2010</time>
+
+
+
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/heroku/'>heroku</a>, <a class='category' href='/blog/categories/rails-/'>rails,</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://karrupa.com/blog/2010/02/21/rails-and-heroku/" data-via="kalupa" data-counturl="http://karrupa.com/blog/2010/02/21/rails-and-heroku/" >Tweet</a>
+  
+  
+  <g:plusone size="medium"></g:plusone>
+  
+</div>
+
+    
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread"><div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'karrupa';
+  var disqus_identifier = 'http://karrupa.com/blog/2010/02/21/rails-and-heroku/';
+  var disqus_url = 'http://karrupa.com/blog/2010/02/21/rails-and-heroku/';
+  //var disqus_developer = 1;
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+      
+        <aside role=sidebar><section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2010/12/03/vi-vs-emacs/">Vi(m) vs. (Emacs)</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/09/02/cached-commons-javascript-api/">cached-commons - javascript API</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/09/01/death-to-design-awards/">Death to Design Awards</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/08/27/the-strange-case-of-solar-flares-and-radioactive-elements/">The strange case of solar flares and radioactive elements</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/08/20/post-apocolyptic-tokyo/">Post-apocalyptic Tokyo scenery</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("kalupa", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/kalupa" class="twitter-follow-button" data-width="208px" data-show-count="false">Follow @kalupa</a>
+  
+</section>
+
+
+
+
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:kalupa">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "kalupa"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
+
+
+</aside>
+      
+    </div>
+  </div>
+  <footer><p>
+  Copyright &copy; 2011 - Paul Kalupnieks -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+</footer>
+</body>
+</html>
