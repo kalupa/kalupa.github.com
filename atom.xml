@@ -4,7 +4,7 @@
   <title></title>
   <link href="http://karrupa.com/atom.xml" rel="self"/>
   <link href="http://karrupa.com/"/>
-  <updated>2011-09-30T16:53:33+09:00</updated>
+  <updated>2011-09-30T16:56:26+09:00</updated>
   <id>http://karrupa.com/</id>
   <author>
     <name>Paul Kalupnieks</name>
@@ -24,6 +24,9 @@
 &lt;p&gt;With the slow code-rot of Textmate happening, I&amp;#8217;d decided that it might be time to pick up a new editor, one that&amp;#8217;s both actively maintained but also extremely well adapted to programming in languages other than Ruby. I mean, lets face it, Textmate was intended for Ruby development on the Mac and it does that admirably.&lt;/p&gt;
 
 &lt;p&gt;Enter the classic open-source text editors!&lt;/p&gt;
+
+&lt;!&#8211; more &#8211;&gt;
+
 
 &lt;p&gt;I decided to start from a place with at least a passing familiarity from my unix knowledge.&lt;/p&gt;
 
