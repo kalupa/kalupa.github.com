@@ -1,6 +1,5 @@
 #Paul Kalupnieks
 ###paul@karrupa.com
-Full-stack Ruby Software Engineer with speciality in interface programming using html and javascript.
 
 ##Specialties
 Leadership, insight, developing unique solutions, problem solving, rapid prototyping, iterative development and design, Ruby, Rails, Javascript, jQuery, HTML5, CSS3, Test Driven Development, Pairing, other agile best practices (mostly drawn from XP).
@@ -8,13 +7,13 @@ Leadership, insight, developing unique solutions, problem solving, rapid prototy
 ##Experience
 
 ###Senior Software Engineer, Big Bang Technology, Toronto, Ontario - 2011-2012
- Shipped code daily/weekly. Highly proficient in responsive design. Ton of experience with streaming video and analytics. Shipped a ton of production code in an enterprise focused eLearning platform supporting 70k monthly actives.
+Shipped a ton of production code on a daily/weekly basis in an enterprise focused eLearning platform supporting 70k monthly actives. Highly proficient in responsive design. Highly experienced with streaming video and analytics using AWS EC2, S3 and Cloudfront.
 
 ###Principal, Karrupa Interactive, Toronto/Tokyo — 2008-2011
 Technical consulting and web application development. Owner and chief executive delivering project planning, execution and delivery. Software architecture, customer interaction and small, distributed team management. Remotely managed projects from headquarters in Tokyo and oversaw projects in Toronto, Canada
 
 ###Technology Lead, Salt & Pepper Design, Toronto, Ontario — 2008-2010
-Provides technical management and direction to the web development aspect of a design-oriented firm. Balanced priorities between several simultaneous projects, coordinating efforts of a small team of developers and communicating with clients in addition to writing a whole lot of code. Clients include: Bank of Montreal, Homesense, ING Direct, Discover 1812, Medusa Fine Art, Fred Perry Canada.
+Provided technical management and direction to the web development aspect of a design-oriented firm. Balanced priorities between several simultaneous projects, coordinating efforts of a small team of developers and communicating with clients in addition to writing a whole lot of code. Clients include: Bank of Montreal, Homesense, ING Direct, Discover 1812, Medusa Fine Art, Fred Perry Canada.
 
 ###Senior Interactive Developer, Critical Mass, Toronto, Ontario — 2006-2008
 Worked with high-profile, multinational corporations including Citigroup, Rolex, and Michelin. Fast- paced time-intensive project deadlines, simultaneous task involvement, changing task environments, “fighting fires”, developing and using content management systems, working independently and as a member of a team, direct client interaction, timeline planning, technical direction. Gave insight and leadership on technical aspects of client pitches. Participated in brainstorming sessions to give strategic direction to both clients and internal teams.
