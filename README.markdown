@@ -1,5 +1,5 @@
 #Paul Kalupnieks
-###paul@karrupa.com
+###paul@karrupa.com • http://karrupa.com • http://github.com/kalupa • [@kalupa](http://twitter.com/kalupa)
 
 ##Specialties
 Leadership, insight, developing unique solutions, problem solving, rapid prototyping, iterative development and design, Ruby, Rails, Javascript, jQuery, HTML5, CSS3, Test Driven Development, Pairing, other agile best practices (mostly drawn from XP).
