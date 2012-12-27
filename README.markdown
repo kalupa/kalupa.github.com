@@ -18,7 +18,7 @@ Provided technical management and direction to the web development aspect of a d
 ###Senior Interactive Developer, Critical Mass, Toronto, Ontario — 2006-2008
 Worked with high-profile, multinational corporations including Citigroup, Rolex, and Michelin. Fast-paced time-intensive project deadlines, simultaneous task involvement, changing task environments, “fighting fires”, developing and using content management systems, working independently and as a member of a team, direct client interaction, timeline planning, technical direction. Gave insight and leadership on technical aspects of client pitches. Participated in brainstorming sessions to give strategic direction to both clients and internal teams.
 
-###Sr. Contributor, Interface Engineering, Organic, Toronto, Ontario — 2005-2007
+###Sr. Contributor, Interface Engineering, Organic, Toronto, Ontario — 2005-2006
 Worked with Daimler-Chrysler, Viacom, and Bank of America. Planning, technical consultation, content management systems consultation, team member motivation and time-management advice, front-end programming, remote-office intercommunication, RFP documentation responses.
 
 ###Senior Software Developer, Big Orbit — 2001-2005
