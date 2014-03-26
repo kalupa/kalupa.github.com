@@ -1,0 +1,60 @@
+==================================================================
+https://keybase.io/kalupa
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://karrupa.com
+  * I am kalupa (https://keybase.io/kalupa) on keybase.
+  * I have a public key with fingerprint 6A22 7177 4E4B 67EA EBF7  DC75 0D0E 627C E0EF BC0A
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "6a2271774e4b67eaebf7dc750d0e627ce0efbc0a",
+            "host": "keybase.io",
+            "key_id": "0D0E627CE0EFBC0A",
+            "uid": "3a4426bd0bf32516d60f904aa5702f00",
+            "username": "kalupa"
+        },
+        "service": {
+            "hostname": "karrupa.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1395874165,
+    "expire_in": 157680000,
+    "prev": "f1a5096bd8e10d8da2297fd6c710d3a16cd874bd3710129b32822758df1fa9ba",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.20 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owE9UT1oFEEU3mgUPIgklWCKwEAs5Dxm/2Z2F1Ik8SxiJSkkjcfMzpvL4GV3M7t7
+eiQRSyWNja1onXRaKtiKVrGXiG1QECsL9U1Qpxne+37e35OZs15nbuai3D3+9roz
+9f7tV+mthxvtDpGlmpBsh9yF00+bYgi2sqZoSEaYCALucx5BJBkHAVJzlfOYKgos
+4DlQ0DKngnTJZlk7BdpIUUPPlJjDYGAUZul12kf+ap/2b6ys0mXE2lMgFFEUMKmo
+1GEQ+0wxqlMaCRFzGmhKHbEGW4gtcOZi1FaC7HUJ5sYmB9exK/wftxYJvbzcQmFl
+y6bMyxECm01TZU7XTCpHvAdy8NdiIE2hcGgUjMHWpixI5iMzb4zz9MM0Tnjks7hL
+4H5lLAyMY8ScJRSfKwNjtNS+iGmKoyTgU5Uo3FzKtWI5xzAUPssV+kgVYuwHqQyD
+BHcbJ0r7WqTSrbCG7aIkWYRtiiFa1mZYiKa1QPYe3Zn25jre+XNn3NW8zoXZf7e8
+cnPKO/jygHx4Z57v7z5c3/64djR9tPHz82TpgD4+XPt+efmH99teG116+mbp1vHi
+7P7Cy3bhRW/l8NXiL3JyMm9uX3326Q8=
+=/8la
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kalupa
+
+==================================================================
